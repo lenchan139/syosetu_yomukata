@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.lenchan139.syosetu_yomukata.MainActivity">
+    <item
+        android:id="@+id/bookmarks"
+        android:orderInCategory="100"
+        android:title="ボックマーク"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/open_in_browser"
+        android:orderInCategory="100"
+        android:title="ブラウザーで開く"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/copy_url"
+        android:orderInCategory="100"
+        android:title="URLをコピーする"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
